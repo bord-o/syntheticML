@@ -1,0 +1,5 @@
+(library
+ (name syntheticML)
+ (libraries ppx_inline_test ppx_deriving)
+ (preprocess (pps ppx_deriving.show))
+ )
