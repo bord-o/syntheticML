@@ -112,7 +112,7 @@ proc Top-Down-Search
 
 proc New-Terms (returns the number of programs corresponding to number of productions)
   A = left-most non-terminal in t
-  for all productions from A 
+  for all productions from A
     t' = t with production
     if t' is within bounds then
       yield t'
